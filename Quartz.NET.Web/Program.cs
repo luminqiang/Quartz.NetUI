@@ -27,8 +27,8 @@ namespace Quartz.NET.Web
                Host.CreateDefaultBuilder(args)
                    .ConfigureWebHostDefaults(webBuilder =>
                    {
-                       webBuilder.UseKestrel().UseUrls("http://*:9950");
-                       webBuilder.UseIIS();
+                       //webBuilder.UseKestrel().UseUrls("http://*:9950");
+                       //webBuilder.UseIIS();
                        webBuilder.UseStartup<Startup>();
                    });
     }
